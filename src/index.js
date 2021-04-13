@@ -9,4 +9,5 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 
-console.log("hello");
+let date = new Date();
+console.log(date.toLocaleString());
